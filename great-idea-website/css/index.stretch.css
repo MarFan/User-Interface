@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Quicksand&display=swap');
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+body {
+	padding-top: 80px;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	height: 66px;
+	width: 876px;
+	margin: 0 auto;
+	background-color: rgb(1,84,160	);
+	z-index: 999;
+}
+
+header nav a {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	display: inline-block;
+	transition: all .5s;
+}
+
+header nav a:hover{
+	color: white;
+	transform: scale(1.25);
+	transition: all .5s;
+}
+
+#wowsers a {
+	display: inline-block;
+	transition: all .5s;
+}
+
+#wowsers a:hover {
+	transform: scale(1.5)
+}
+
+#tagImg img {
+	display: none;
+}
+
+#tagImg {
+	height: 429px;
+	width: 381px;
+	background-image: url("../img/header-img.png");
+	background-size: cover;	
+	transition: all .5s;
+}
+
+#tagImg:hover, #tagImg:focus {
+	transform: scale(.9);	
+}
+
+.middle-img {
+	display: none;
+}
+
+#middleImg {
+	width: 876px;
+	height: 182px;
+	margin: 40px 0;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#pageDetail {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+#pageDetail #content-row {
+	display: flex;
+}
+
+#pageDetail #content-row div{
+	margin: 20px;
+}
+
+#pageDetail div p {
+	font-size: 16px;
+}
+
+#pageDetail img {
+	width: 180px;
+	height: 180px;
+}
